@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <!-- HEADER -->
+
+    <nav class="navbar bg-warning fixed-top py-3">
+      <div class="container-fluid display-1">
+        <a class="navbar-brand mx-4" href="#" style="font-size: 25px;"> <strong>O QUE É O QUE É?</strong>
+            <i class="bi bi-music-note-beamed"></i>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">O que é o que é?</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#introducao">Introdução</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#refrao">Refrão</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Versos
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#verso1">Verso 1</a></li>
+                  <li><a class="dropdown-item" href="#verso2">Verso 2</a></li>
+                  <li><a class="dropdown-item" href="#verso3">Verso 3</a></li>
+                  <li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- IMAGEM DO CANTOR ------------------------------------------------------------------ -->
+
+    <div class="container-fluid p-0">
+  <div class="row g-0">
+    
+    <div>
+      <div class="card border-0 text-white" id="introducao">
+        
+                <img src="/gonzaguinha.jpg" class="card-img object-fit-cover" alt="Gonzaguinha">
+            
+            <div class="card-img-overlay d-flex flex-column justify-content-center align-items-end bg-dark bg-opacity-50">
+                <p class="card-title display-5 fw-bold text-end">"Eu fico com a pureza <br> da resposta das crianças <br>
+                    É a vida, é bonita <br> e é bonita"
+                </p>
+            </div>
+      </div>
+    </div>
+
+    <div class="card">
+            <div class="card-body display-3 align-items-center text-center" id="refrao"> <hr>
+                Viver e não ter a vergonha de ser feliz <br>
+                <!-- Cantar e cantar e cantar <br> -->
+                A beleza de ser um eterno aprendiz
+            </div>
+    </div>
+
+    <!-- CARDS ------------------------------------------------------------------------------- -->
+
+<div class="container mt-5 mb-5 px-5" id="verso1">
+  <div class="row g-4"> <div class="col-md-6">
+      <div class="card h-100 border-0 shadow rounded-4 bg-warning">
+        <img src="/coracao.jpg" class="card-img-top rounded-4 p-3" alt="coração" style="width: 200px; margin: auto;">
+        <div class="card-body text-center">
+          <h5 class="card-title fw-bold">E a vida?</h5>
+          <p class="card-text">
+            E a vida, o que é? Diga lá, meu irmão <br>
+            Ela é a batida de um coração? <br>
+            Ela é uma doce ilusão? Ê-ô
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="card h-100 border-0 shadow rounded-4 text-white" style="background-color: #fd7e14;">
+        <img src="/nuvem.jpg" class="card-img-top rounded-4 p-3" alt="Nuvem" style="width: 200px; margin: auto;">
+        <div class="card-body text-center">
+          <h5 class="card-title fw-bold">Mas e a vida?</h5>
+          <p class="card-text">
+            Ela é maravida ou é sofrimento? <br>
+            Ela é alegria ou lamento? <br>
+            O que é, o que é, meu irmão?
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- CARROSEL ------------------------------------------------------------------------------------ -->
+ <div class="container mt-5" id="verso2">
+    <div id="carrossel_estilizado" class="carousel slide" data-bs-ride="carousel">
+        
+        <div class="carousel-inner text-center rounded-5 shadow-lg" style="min-height: 300px; background-color: #2ed3e9;">
+            
+            <div class="carousel-item active mt-5">
+                <div class="p-5">
+                    <h2 class="display-5 fw-bold" style="color: #082ba0;">VIDA!</h2>
+                    <h2 class="lead fw-bold">"Há quem fale que a vida da gente é um nada no mundo <br>
+                    É uma gota, é um tempo que nem dá um segundo"</h2>
+                </div>
+            </div>
+
+            <div class="carousel-item mt-5">
+                <div class="p-5">
+                    <h2 class="display-5 fw-bold" style="color: #082ba0;">AMOR!</h2>
+                    <h2 class="lead fw-bold">"Há quem fale que é um divino mistério profundo <br>
+                    É o sopro do criador numa atitude repleta de amor"</h2>
+                </div>
+            </div>
+
+            <div class="carousel-item mt-5">
+                <div class="p-5">
+                    <h2 class="display-5 fw-bold" style="color: #082ba0;">PRAZER!</h2>
+                    <h2 class="lead fw-bold">"Você diz que é luta e prazer <br>
+                    Ele diz que a vida é viver"</h2>
+                </div>
+            </div>
+
+            <div class="carousel-item mt-5">
+                <div class="p-5">
+                    <h2 class="display-5 fw-bold" style="color: #082ba0;">SOFRER!</h2>
+                    <h2 class="lead fw-bold">"Ela diz que melhor é morrer <br>
+                    Pois amada não é e o verbo é sofrer"</h2>
+                </div>
+            </div>
+
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carrossel_estilizado" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carrossel_estilizado" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+    </div>
+</div>
+<br>
+
+<!-- MODAL -------------------------------------------------------------- -->
+ <div class="container d-flex justify-content-center gap-3 mt-5 mb-5" id="verso3">
+    
+    <button type="button" class="btn btn-primary btn-lg py-3 px-5 fs-4 shadow-sm" data-bs-toggle="modal" data-bs-target="#exemploModal">
+        Saúde e Sorte
+    </button>
+
+    <button type="button" class="btn btn-success btn-lg py-3 px-5 fs-4 shadow-sm" data-bs-toggle="modal" data-bs-target="#ExemploModal2">
+        Força da Fé
+    </button>
+
+</div>
+
+<div class="modal fade" id="exemploModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered"> <div class="modal-content border-0 shadow">
+            <div class="modal-header bg-primary text-white">
+                <h5 class="modal-title">Saúde e Sorte</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="modal-body p-4 text-center">
+                <p class="fs-5 italic">
+                    "Sempre desejada <br>
+                    Por mais que esteja errada <br>
+                    Ninguém quer a morte <br>
+                    Só saúde e sorte!"
+                </p>
+            </div>
+
+            <div class="modal-footer border-0">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="ExemploModal2" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content border-0 shadow">
+            <div class="modal-header bg-success text-white">
+                <h5 class="modal-title">A Força da Fé</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="modal-body p-4 text-center">
+                <p class="fs-5">
+                    "Eu só sei que confio na moça <br>
+                    E na moça eu ponho a força da fé <br>
+                    Somos nós que fazemos a vida <br>
+                    Como der, ou puder, ou quiser"
+                </p>
+            </div>
+
+            <div class="modal-footer border-0">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- CARD COM IMAGEM ----------------------------------------------------- -->
+<div class="card mb-3 shadow rounded-4 border-0" style="max-width: 1300px; margin: auto; overflow: hidden;">
+  <div class="row g-0 align-items-center">
+    
+    <div class="col-md-5">
+      <video controls class="w-100 h-100 object-fit-cover rounded-start-4" style="min-height: 250px;">
+        <source src="/videoplayback.mp4" type="video/mp4">
+        Seu navegador não suporta a tag de vídeo.
+      </video>
+    </div>
+
+    <div class="col-md-7">
+      <div class="card-body p-5">
+        <h5 class="card-title display-6 fw-bold">Gonzaguinha - O que é, o que é?</h5>
+        <p class="card-text fs-5 text-muted">
+          Assista à performance emocionante dessa obra-prima da música brasileira, gravada originalmente em 1982. 
+          A celebração da vida e da felicidade continua viva aqui.
+        </p>
+        <p class="card-text mt-4">
+          <small class="text-danger fw-bold fs-5">
+            "Viver e não ter a vergonha de ser feliz!"
+          </small>
+        </p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- VOLTAR AO INICIO _---------------------------------------------------------- -->
+
+
+
+<!-- FOOTER ---------------------------------------------- -->
+<footer class="bg-light text-dark pt-5 pb-4 mt-5 border-top">
+  <div class="container">
+    <div class="row align-items-center">
+      
+      <div class="col-md-7 pe-md-5">
+        <h5 class="fw-bold mb-3">GONZAGUINHA</h5>
+        <p class="text-secondary" style="text-align: justify; line-height: 1.6;">
+          Luiz Gonzaga do Nascimento Júnior, conhecido como Gonzaguinha (1945–1991), foi um 
+          dos maiores cantores e compositores da Música Popular Brasileira (MPB). Filho do "Rei 
+          do Baião", Luiz Gonzaga, ele se destacou no Rio de Janeiro com letras que uniam forte 
+          crítica social à ditadura militar e lirismo romântico, tornando-se uma voz fundamental 
+          de resistência e esperança.
+        </p>
+      </div>
+
+      <div class="col-md-5 text-center">
+        <img src="/pai.png" alt="Gonzaguinha e Luiz Gonzaga" 
+             class="img-fluid shadow rounded-3" 
+             style="max-height: 250px; width: auto;">
+      </div>
+
+    </div>
+
+    <div class="row mt-4">
+      <div class="col-12 text-center">
+        <hr class="mb-4">
+        <p class="small text-muted">&copy; 2026 - Alana e Maily"</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
